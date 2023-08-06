@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import styles from '../styles/pages/page.module.scss';
-import React from 'react';
+import React, { ReactElement } from 'react';
 
-export default function Home(): React.JSX.Element {
+export default function Home(): ReactElement {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
