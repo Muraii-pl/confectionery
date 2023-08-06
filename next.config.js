@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 path = require('path')
 const nextConfig = {
+	output: 'export',
+	distDir: 'dist',
   reactStrictMode: true,
   experimental: {
     typedRoutes: true,
